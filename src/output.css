@@ -852,6 +852,10 @@ video {
     font-size: 20px;
   }
 
+  .max-\[410px\]\:text-\[23px\] {
+    font-size: 23px;
+  }
+
   .max-\[410px\]\:text-\[25px\] {
     font-size: 25px;
   }

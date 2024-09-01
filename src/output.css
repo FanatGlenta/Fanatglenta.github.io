@@ -852,15 +852,13 @@ video {
     font-size: 20px;
   }
 
-  .max-\[410px\]\:text-\[23px\] {
-    font-size: 23px;
-  }
-
-  .max-\[410px\]\:text-\[25px\] {
-    font-size: 25px;
-  }
-
   .max-\[410px\]\:text-\[50px\] {
     font-size: 50px;
+  }
+}
+
+@media (max-width: 400px) {
+  .max-\[400px\]\:text-\[36px\] {
+    font-size: 36px;
   }
 }

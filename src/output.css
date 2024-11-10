@@ -562,6 +562,10 @@ video {
   position: relative;
 }
 
+.bottom-\[2vh\] {
+  bottom: 2vh;
+}
+
 .right-\[calc\(20px\+2rem\)\] {
   right: calc(20px + 2rem);
 }
@@ -609,6 +613,10 @@ video {
 
 .h-full {
   height: 100%;
+}
+
+.h-screen {
+  height: 100vh;
 }
 
 .max-h-\[2000px\] {
@@ -715,10 +723,6 @@ video {
   padding-bottom: 3.5rem;
 }
 
-.pb-\[calc\(100vh-760px\)\] {
-  padding-bottom: calc(100vh - 760px);
-}
-
 .pl-\[20px\] {
   padding-left: 20px;
 }
@@ -778,10 +782,6 @@ video {
 }
 
 @media (max-width: 1000px) {
-  .max-\[1000px\]\:pb-\[calc\(100vh-760px\)\] {
-    padding-bottom: calc(100vh - 760px);
-  }
-
   .max-\[1000px\]\:pt-10 {
     padding-top: 2.5rem;
   }
